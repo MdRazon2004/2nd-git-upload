@@ -1,3 +1,7 @@
+:root {
+    --primary-btn-background-color:rgba(229, 84, 115, 1);
+    --primary-btn-background-hover-color:rgba(229, 84, 115, .7);
+}
 *{
     margin: 0;
     padding: 0;
@@ -11,23 +15,22 @@ body {
 .continer {
     max-width: 1470px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 .flex {
     display: flex;
     display: block;
 }
-.hero {
+header {
+    background-image: linear-gradient(rgba(35, 35, 35, 0.50),rgba(35, 35, 35, 0.50)),url(photo/Rectangle\ 1.png);
     width: 1920px;
     height: 900px;
-    flex-shrink: 0;
-    background-image: url(photo/Rectangle\ 1.png);
-    background-position: center;
-    /* background: rgba(35, 35, 35, 0.50); */
+    margin: 0 auto;
 }
 .left{
     margin-left: 100px;
     display: block;
-   
+    padding-top: 197px;
 }
 .text {
     color: #FFF;
@@ -46,4 +49,20 @@ body {
     font-weight: 400;
     line-height: 30px;
     width: 634px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.btn {
+    background-color: var(--primary-btn-background-color);
+    padding: 20px 43px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--primary-btn-background-hover-color);
 }
