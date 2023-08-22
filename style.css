@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+} 
+.continer {
+    max-width: 1470px;
+    padding: 0 15px;
+}
+.flex {
+    display: flex;
+    display: block;
+}
+.hero {
+    width: 1920px;
+    height: 900px;
+    flex-shrink: 0;
+    background-image: url(photo/Rectangle\ 1.png);
+    background-position: center;
+    /* background: rgba(35, 35, 35, 0.50); */
+}
+.left{
+    margin-left: 100px;
+    display: block;
+   
+}
+.text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+}
+.text2 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+}
