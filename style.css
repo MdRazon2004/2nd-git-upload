@@ -59,7 +59,9 @@ header {
 .mb-56 {
     margin-bottom: 56px;
 }
-
+.mb-48 {
+    margin-bottom: 48px;
+}
 .btn {
     background-color: var(--primary-btn-background-color);
     padding: 20px 43px;
@@ -69,9 +71,24 @@ header {
     font-weight: 700;
     border: none
 }
+.al {
+    border-radius: 8px;
+    border: 1px solid #E55473;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFF;
+}
 .btn:hover {
     cursor: pointer;
     background-color: var(--primary-btn-background-hover-color);
+}
+.al:hover {
+    cursor: pointer;
+    background-color: aliceblue;
 }
 .step2 {
     padding-top: 128px;
@@ -93,4 +110,30 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+.flex2 {
+    display: flex;
+    gap: 24px;
+}
+.flower-continer a {
+    display: block;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.flower-continer img {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.03);
+    width: 464px;
+    height: 482px;
+}
+#ton {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
 }
