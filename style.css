@@ -12,6 +12,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 } 
+a {
+    text-decoration: none;
+}
 .continer {
     max-width: 1470px;
     padding: 0 15px;
@@ -113,6 +116,8 @@ header {
 .flex2 {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .flower-continer a {
     display: block;
@@ -128,6 +133,37 @@ header {
     width: 464px;
     height: 482px;
 }
+.one {
+    padding-top: 60.96px;
+    padding-bottom: 60.48px;
+    padding-left: 112px;
+    padding-right: 112px;
+}
+.two {
+    padding: 85px 76px;
+}
+.three {
+    padding-top: 96px;
+    padding-left: 77px;
+    padding-right: 77px;
+}
+.four {
+    padding-top: 67px;
+    padding-bottom: 95px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+.five {
+    padding-top: 117px;
+    padding-left: 87px;
+    padding-right: 87px;
+}
+.sex {
+    padding-top: 78.9px;
+    padding-bottom: 78.52px;
+    padding-left: 84px;
+    padding-right: 83px;
+}
 #ton {
     color: #E55473;
     font-family: Lato;
@@ -135,4 +171,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 35px;
+}
+.btn2 {
+    text-align: center;
 }
