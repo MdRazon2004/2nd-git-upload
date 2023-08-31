@@ -164,6 +164,27 @@ header {
     padding-left: 84px;
     padding-right: 83px;
 }
+.seven {
+    padding-top: 69px;
+    padding-bottom: 70px;
+    padding-left: 89px;
+    padding-right: 89px;
+}
+.eight {
+    padding: 105px 35px;
+}
+.nine {
+    padding-top: 107px;
+    padding-bottom: 125px;
+    padding-left: 81px;
+    padding-right: 81px;
+}
+.ten {
+    padding-top: 73px;
+    padding-bottom: 78px;
+    padding-left: 61px;
+    padding-right: 61px;
+}
 #ton {
     color: #E55473;
     font-family: Lato;
@@ -174,4 +195,22 @@ header {
 }
 .btn2 {
     text-align: center;
+}
+.flower-continer2 a {
+    display: block;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.flower-continer2 img {
+    border-radius: 300px;
+    background: rgba(39, 39, 39, 0.03);
+    width: 342px;
+    height: 482px;
+    flex-shrink: 0;
+}
+.step2continer {
+    padding-bottom: 128px;
 }
