@@ -9,6 +9,8 @@
     box-sizing: border-box;
 }
 body {
+    font-family: 'Ephesis', cursive;
+    font-family: 'Inter', sans-serif;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 } 
@@ -64,6 +66,12 @@ header {
 }
 .mb-48 {
     margin-bottom: 48px;
+}
+.mb-18 {
+    margin-bottom: 18px;
+}
+.mt-18 {
+    margin-top: 18px;
 }
 .btn {
     background-color: var(--primary-btn-background-color);
@@ -213,4 +221,118 @@ header {
 }
 .step2continer {
     padding-bottom: 128px;
+}
+.Hurry-Up {
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+}
+.mt-128 {
+    padding: 128px;
+}
+/* .left2,
+.right {
+    max-width: 50%;
+} */
+.Hurry {
+    color: #E55473;
+    font-family: Ephesis;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.Deal {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.text5 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.vertical-line {
+    width: 70px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.10);
+}
+.vertical-line-position {
+    padding: 8px 10px ;
+}
+.vertical-line2 {
+    width: 70px;
+    height: 1px;
+    background: #E55473;
+}
+.box-top-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.box-top-text2 {
+    color: #e55473;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.box-bottom-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box-bottom-text2 {
+    color: #e55473;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box1 {
+    border-radius: 4px;
+    background: #FFF;
+    width: 90px;
+}
+.box2 {
+    border-radius: 4px;
+    border: 1px solid #E55473;
+    background: rgba(229, 84, 115, 0.05);
+    width: 90px;
+}
+.box3 {
+    border-radius: 4px;
+    background: #FFF;
+    width: 90px;
+}
+.box4 {
+    border-radius: 4px;
+    background: #FFF;
+    width: 90px;
+}
+.btn-pojetion {
+    text-align: center;
+}
+.right {
+    margin-top: 93px;
+    margin-right: 141px;
 }
