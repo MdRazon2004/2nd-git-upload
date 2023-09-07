@@ -336,3 +336,50 @@ header {
     margin-top: 93px;
     margin-right: 141px;
 }
+.off {
+    color: #E55473;
+}
+.footer {
+    width: 1920px;
+    height: 592px;
+    background: #111010;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Flower-text {
+    font-family: Lato;
+    font-size: 48px;
+    color: #E55473;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 128px;
+}
+.Shop-color {
+    color: #FFF;
+}
+.text-align {
+    text-align:center ;
+}
+.p-color {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-family: Lato;
+    line-height: 30px;
+}
+.logo-gap {
+    gap: 40px;
+}
+.bottom-text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text-gap {
+    display: inline-flex;
+    padding: 10px;
+    gap: 60px;
+}
